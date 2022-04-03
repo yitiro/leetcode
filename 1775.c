@@ -1,3 +1,8 @@
+/**
+ * @brief https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/
+ * @brief 1775
+ */
+
 int minOperations(int* nums1, int nums1Size, int* nums2, int nums2Size){
     if (6 * nums1Size < nums2Size) return -1;
     if (6 * nums2Size < nums1Size) return -1;
